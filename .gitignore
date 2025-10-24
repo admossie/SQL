@@ -5,3 +5,7 @@
 
 # Local restore folder
 Backup/
+
+# VS Code junk
+.vscode/
+
