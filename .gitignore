@@ -1,0 +1,7 @@
+﻿# DB backups & data files
+*.bak
+*.mdf
+*.ldf
+
+# Local restore folder
+Backup/
