@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build">
+  <Sdk Name="Microsoft.Build.Sql" Version="1.0.0" />
+  <PropertyGroup>
+    <Name>NorthwindProject</Name>
+    <ProjectGuid>{9A5A185E-AAA5-4A28-8126-DE73ABEA81D7}</ProjectGuid>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql160DatabaseSchemaProvider</DSP>
+    <ModelCollation>1033, CI</ModelCollation>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include=".vscode\tasks.json" />
+    <Build Include="dbo.Alphabetical list of products.View.sql" />
+    <Build Include="dbo.Current Product List.View.sql" />
+    <Build Include="dbo.Customer and Suppliers by City.View.sql" />
+    <Build Include="dbo.CustOrderHist.StoredProcedure.sql" />
+    <Build Include="dbo.CustOrdersDetail.StoredProcedure.sql" />
+    <Build Include="dbo.CustOrdersOrders.StoredProcedure.sql" />
+    <Build Include="dbo.Employee Sales by Country.StoredProcedure.sql" />
+    <Build Include="dbo.Invoices.View.sql" />
+    <Build Include="dbo.Order Details Extended.View.sql" />
+    <Build Include="dbo.Order Subtotals.View.sql" />
+    <Build Include="dbo.Orders Qry.View.sql" />
+    <Build Include="dbo.Product Sales for 1997.View.sql" />
+    <Build Include="dbo.Products Above Average Price.View.sql" />
+    <Build Include="dbo.Products by Category.View.sql" />
+    <Build Include="dbo.pr_GetOrderSummary.StoredProcedure.sql" />
+    <Build Include="dbo.Quarterly Orders.View.sql" />
+    <Build Include="dbo.Sales by Category.View.sql" />
+    <Build Include="dbo.Sales by Year.StoredProcedure.sql" />
+    <Build Include="dbo.Sales Totals by Amount.View.sql" />
+    <Build Include="dbo.SalesByCategory.StoredProcedure.sql" />
+    <Build Include="dbo.Summary of Sales by Quarter.View.sql" />
+    <Build Include="NorthwindProject.sqlproj" />
+    <Build Include="Tables\dbo.Categories.Table.sql" />
+    <Build Include="Tables\dbo.CustomerDemographics.Table.sql" />
+    <Build Include="Tables\dbo.Customers.Table.sql" />
+    <Build Include="Tables\dbo.Employees.Table.sql" />
+    <Build Include="Tables\dbo.EmployeeTerritories.Table.sql" />
+    <Build Include="Tables\dbo.Order Details.Table.sql" />
+    <Build Include="Tables\dbo.Orders.Table.sql" />
+    <Build Include="Tables\dbo.Products.Table.sql" />
+    <Build Include="Tables\dbo.Region.Table.sql" />
+    <Build Include="Tables\dbo.Shippers.Table.sql" />
+    <Build Include="Tables\dbo.Suppliers.Table.sql" />
+    <Build Include="Tables\dbo.Territories.Table.sql" />
+  </ItemGroup>
+  <Target Name="BeforeBuild">
+    <Delete Files="$(BaseIntermediateOutputPath)\project.assets.json" />
+  </Target>
+</Project>

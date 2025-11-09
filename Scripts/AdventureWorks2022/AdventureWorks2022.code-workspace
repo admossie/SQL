@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Chinook"
+		},
+		{
+			"path": "../Northwind"
+		},
+		{
+			"path": "../NorthwindProject"
+		},
+		{
+			"path": "../WideWorldImportersDW"
+		}
+	]
+}

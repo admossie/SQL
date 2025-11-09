@@ -1,0 +1,2 @@
+-- Exercise 4: For each customer, compute revenue and orders_cnt.
+-- Return only customers with revenue >= 30, order by revenue desc.

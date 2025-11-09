@@ -1,0 +1,2 @@
+-- Exercise 3: Show all customers from #Customers with their latest sale date (if any).
+-- Use LEFT JOIN and GROUP BY (or APPLY) to get the max OrderDate.

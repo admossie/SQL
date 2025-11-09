@@ -1,0 +1,2 @@
+-- Exercise 5: For each customer, rank orders by OrderDate (oldest = 1).
+-- Output: CustomerID, SaleID, OrderDate, rnk.

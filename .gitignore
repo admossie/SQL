@@ -9,3 +9,4 @@ Backup/
 # VS Code junk
 .vscode/
 
+node_modules

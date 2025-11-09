@@ -1,0 +1,3 @@
+-- Exercise 1: Return SaleID, OrderDate, and a computed column total = Qty*UnitPrice
+-- Sort by total descending. Limit to top 3 rows.
+-- Write your solution below.

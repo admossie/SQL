@@ -1,0 +1,2 @@
+-- Exercise 2: Return all rows for CustomerID 101 in February 2024 (inclusive).
+-- Use a SARGable date-range pattern (>= start AND < next_month).
